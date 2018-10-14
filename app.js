@@ -21,6 +21,11 @@ if(command === "test") {
   message.channel.send("Test!");
 
   }
-});
 
+
+if(command === "kutya") {
+  message.delete().catch();
+  message.channel.send("Maja! :D");
+}
+});
   client.login(config.token);
